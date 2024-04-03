@@ -4,12 +4,15 @@
   font-size: 16rem;
   line-height: 125%;
   color: var(--white);
-  margin: 21rem 0rem;}
+  margin: 21rem 5rem;}
   
 .carousel {
-  display: flex;
-  justify-content: space-between;
-  gap: 22rem;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 22rem;
+  
   
 }
 .card { 

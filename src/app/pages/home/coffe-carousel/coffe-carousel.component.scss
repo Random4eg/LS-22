@@ -1,7 +1,9 @@
 .carousel {
   display: grid;
+  justify-content: center;
   grid-template-columns: repeat(4, 1fr);
-  gap: 22rem;
+  grid-template-rows: 1fr;
+  grid-column-gap: 22rem;
 }
 .card { 
  background: linear-gradient(158.84deg, #262B33 4%, rgba(38, 43, 51, 0) 91.93%);

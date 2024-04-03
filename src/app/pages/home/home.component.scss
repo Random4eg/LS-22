@@ -7,16 +7,32 @@
   }
 
 .list {
-     padding: 10rem;
     margin-top: 28rem;
     margin-bottom: 28rem;
+   
 }
+
 .item {
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 14rem;
     line-height: 143%;
-    color: white;   
+    margin-right: 19rem;
+    color: white; 
+    position: relative;  
+    
+}
+.item:hover{ color: #d17842;}
+.item:hover::after{
+  content: "";
+  position: absolute;
+  border-radius: 7rem;  
+  width: 8px; /* Ширина кружка */
+  height: 8px; /* Висота кружка */
+  position: absolute; /* Встановлюємо позицію елемента відносно батька (a) */
+  bottom: -10px; /* Відступ знизу */
+  left: 40%; /* Відступ зліва */
+  background: #d17842;  
 }
     
 
