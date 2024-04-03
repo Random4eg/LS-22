@@ -1,0 +1,13 @@
+<section class="container">
+
+  <app-input></app-input>
+
+<div class="list">
+  <a [routerLink]="'/product/' + item.id" class="item" *ngFor="let item of coffeeData">
+    {{item.title}}    
+  </a>
+</div>
+<app-coffe-carousel></app-coffe-carousel>
+<app-bean-carousel></app-bean-carousel>
+</section>
+

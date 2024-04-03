@@ -1,0 +1,25 @@
+:host {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22rem 35rem;
+    overflow-x: auto;
+  }
+
+.list {
+     padding: 10rem;
+    margin-top: 28rem;
+    margin-bottom: 28rem;
+}
+.item {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14rem;
+    line-height: 143%;
+    color: white;   
+}
+    
+
+
+  
+ 
